@@ -6,8 +6,6 @@ __`Author:` [@bairondev](https://github.com/bairondev/)__
 ### `Stack Technology`
 <br/>
 
-### `Server /`
-
 - NodeJS
 - Express
 
