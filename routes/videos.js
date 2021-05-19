@@ -37,7 +37,7 @@ router.get('/me',
 );
 
 // Update video
-router.put('/:id', 
+router.put('/update/:id', 
     auth,
     [
         check('name', 'Name is mandatory').not().isEmpty(),
@@ -48,7 +48,7 @@ router.put('/:id',
 );
 
 // Delete video
-router.delete('/:id', 
+router.delete('/delete/:id', 
     auth,
     videoController.deleteVideo
 );

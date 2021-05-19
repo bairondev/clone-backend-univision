@@ -58,7 +58,7 @@ exports.previewVideo = async (req, res) => {
 // Owner video
 exports.meVideo = async (req, res) => {
     try{
-        const videos = await Video.find({ author: req.user.id}).sort({created: -1});
+        const videos = await Video.find({ author: req.user.id});
         res.json(videos);
     }
     catch(error){
